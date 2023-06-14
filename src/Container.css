@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardname,.cardnum,.card_cvc,.expiry{
+position: absolute;
+height: 9px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.91px;
+color: #404040;
+}
+.cardname{
+    width: 140px;
+    height: 10px;
+left: 826px;
+top: 225px;
+font-size: 12px;
+}
+.cardnum{
+    position: absolute;
+width: 144px;
+left: 826px;
+top: 318px;
+}
+.expiry{
+    position: absolute;
+width: 144px;
+left: 826px;
+top: 410px;
+}
+.card_cvc{
+    position: absolute;
+width: 30px;
+left: 1018px;
+top: 410px;
+}
+#cardholder_name,#cardholder_num,#exp_month,#exp_year,#cvccard{
+    position: absolute;
+width: 382px;
+height: 44px;
+left: 826px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.13);
+border-radius: 6px;
+}
+#cardholder_name{
+    top: 248px;
+}
+#cardholder_num{
+top: 340px;
+}
+#exp_month{
+width: 78px;
+top: 433px;
+}
+#exp_year{
+width: 78px;
+left: 917px;
+top: 433px;
+}
+#cvccard{
+width: 189px;
+left: 1017px;
+top: 433px;
+}
+.btn{
+    position: absolute;
+width: 382px;
+height: 53px;
+left: 825px;
+top: 495px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 19px; 
+letter-spacing: 0.01em;
+color: #FFFFFF;
+background: #220930;
+border-radius: 6px;
+}
+input::placeholder{
+    position: absolute;
+left: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.125em;
+color: #BBB9BC;
+}
+.box{
+    position: absolute;
+width: 483px;
+/* height: 639.4px; */
+height: 100%;
+left: 0px;
+top: 0px;
+background: linear-gradient(26.99deg, rgba(69, 26, 78, 0.2) 52.61%, rgba(60, 13, 13, 0.2) 95.07%), linear-gradient(164.67deg, rgba(22, 4, 31, 0.98) 4.47%, #380C4A 15.5%, #3B0E46 19.19%, #3D0F42 23.38%, #441436 30.26%, #33254E 36.4%, #2B2D59 42.79%, #292654 47.99%, #271F4F 52.8%, #240D37 64.72%, #22052D 79.1%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.innerbox1{
+    position: absolute;
+/* width: 447px;
+height: 246px; */
+width: 400px;
+height:211px; 
+left: 172px;
+top: 100px;
+border-radius: 4%;
+}
+.innerbox2{
+    position: absolute;
+/* width: 447px;
+height: 246px; */
+width: 490px;
+height:325px;
+left: 216px;
+top: 293px;
+} 
+.innerbox3{
+    position: absolute;
+/* width: 447px;*/
+/* height: 246px;  */
+width: 380.7px;
+height:35px; 
+left: 260px;
+top: 365px;
+} 
+.textfield{
+    position: absolute;
+width: 328px;
+height: 38px;
+left: 283.8px;
+top: 420.9px;
+background: #ADB6BF;
+border: 1px solid #ADB6BF;
+border-radius: 4px;
+}
+.recu{
+    position: absolute;
+/* background: #AEB5BD;
+border-radius: 4px; */
+top:488px;
+}
+.rec1{
+/* width: 115px;
+height: 5px; */
+left: 347px;
+/* top: 684px; */
+}
+.rec2{
+    /* width: 22px;
+height: 5px; */
+left: 465px;
+/* top: 686px; */
+}
+.rec2_f{
+    /* width: 20px;
+height: 5px; */
+left: 493px;
+/* top: 686px; */
+}
+.rec3{
+    /* width: 9px;
+height: 5px; */
+left: 520px;
+/* top: 686px; */
+}
+.recb{
+    position: absolute;
+top: 505px;
+}
+.rec2_s{
+    left: 360px; 
+}
+.rec4{
+    left: 390px;
+}
+.rec5{
+    left: 457px;
+}
+.rec6{
+    left: 510px;
+}
+.recd{
+    position: absolute;
+top: 520px;
+}
+.rec7{
+    left: 350px;
+}
+.rec8{
+    left: 365px; 
+}
+.rec9{
+    left: 393px;
+}
+.ret{
+    left: 419px;
+}
+.label1,.label2,.label3{
+    position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #F81212;
+}
+.label1{
+    top: 298px;
+left: 832px;
+}
+.label2{
+top:387px;
+left: 832px;
+}
+.label3{
+    left: 1021px;
+    top: 480px;
+}
+.ellipse1{
+    position: absolute;
+    /* width: 490px;
+height:325px; */
+left: 210px;
+top: 128px;
+}
+.ellipse2{
+    position: absolute;
+    /* width: 490px;
+height:325px; */
+left: 275px;
+top: 139px;
+}
+.creditnum,.creditname,.creditexpm,.creditexpy,.creditcvc,.creditslach{
+    position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0.18em;
+color: #FFFFFF;
+}
+.creditnum{
+    width: 367px;
+height: 27px;
+left: 210px;
+top: 205px;
+font-size: 26px;
+}
+.creditname{
+left: 210px;
+top: 260px;
+font-size: 17px;
+}
+.creditexpm{
+left: 504px;
+top: 260px;
+font-size: 15px;
+}
+.creditexpy{
+    left: 480px;
+    top: 260px;
+    font-size: 15px;
+}
+.creditslach{
+    left: 499px;
+    top: 260px;
+    font-size: 15px;
+}
+.creditcvc{
+    left: 560px;
+    top: 425px;
+    font-size: 16px;
+}
+.success{
+        position: absolute;
+    left: 880px;
+    top: 570px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px; 
+    letter-spacing: 0.01em;
+    color: #0d8c13;
+    display: none;
+}
