@@ -7,7 +7,7 @@ function Creditcard(props) {
          <>
         <div className='box'>
             </div>
-        </>
+         </>
       <div>
                 <img src='./img/creditbox.png' alt='Frame' className='innerbox1'></img>
                 <img src='./img/rectangle4.png' alt='Frame' className='innerbox2'></img>
